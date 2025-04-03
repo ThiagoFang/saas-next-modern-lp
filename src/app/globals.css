@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
-/* @utility container {
+@utility container {
   margin-inline: auto;
   padding-inline: 1rem;
-} */
+}
 
 @utility rainbow-gradient {
   @apply bg-[linear-gradient(to_right,rgb(252,214,255,.7),rgb(41,216,255,.7),rgb(255,253,144,.7),rgb(248,158,191,.7),rgb(252,214,255,.7))]
+}
+
+@utility rainbow-background {
+  @apply bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)]
 }
 
 
