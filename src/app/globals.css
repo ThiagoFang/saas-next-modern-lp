@@ -13,6 +13,10 @@
   @apply bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)]
 }
 
+@utility purple-gradient {
+  @apply bg-[linear-gradient(to_bottom,#000,#200D42_35%,#4D21A1_65%,#A46EDB_82%)]
+}
+
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
