@@ -14,7 +14,7 @@ export const Hero = () => {
 						className="border py-1 inline-flex gap-3 px-2 rounded-lg border-white/30"
 					>
 						<span className="rainbow-background text-transparent bg-clip-text [-webkit-background-clip:text]">
-							Version 2.0 is heremt-8
+							Version 2.0 is herem
 						</span>
 						<span className="inline-flex gap-1 items-center">
 							<span>Read More</span>
