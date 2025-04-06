@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const CallToAction = () => {
 	return (
-		<div className="bg-black text-white py-18 sm:py-24 text-center">
+		<div className="bg-black overflow-x-clip text-white py-18 sm:py-24 text-center">
 			<div className="container max-w-xl relative">
 				<Image
 					src={helixImage}

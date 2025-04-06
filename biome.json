@@ -3,6 +3,9 @@
 		"rules": {
 			"a11y": {
 				"useKeyWithClickEvents": "off"
+			},
+			"style": {
+				"useNumberNamespace": "error"
 			}
 		}
 	}
