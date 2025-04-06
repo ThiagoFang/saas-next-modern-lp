@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import ArrowWIcon from "../assets/icons/arrow-w.svg";
 import cursorImage from "../assets/images/cursor.png";
 import messageImage from "../assets/images/message.png";
+
+import { motion } from "motion/react";
 
 export const Hero = () => {
 	return (
@@ -29,20 +33,34 @@ export const Hero = () => {
 							<br /> at Time
 						</h1>
 
-						<Image
-							className="absolute left-[476px] top-[108px] hidden sm:inline"
-							src={cursorImage}
-							alt=""
-							height={100}
-							width={200}
-						/>
-						<Image
-							className="absolute right-[498px] top-[56px] hidden sm:inline"
-							src={messageImage}
-							alt=""
-							height={200}
-							width={200}
-						/>
+						<motion.div
+							className="absolute right-[476px] top-[108px] hidden sm:inline"
+							drag
+							dragSnapToOrigin
+						>
+							<Image
+								src={cursorImage}
+								alt=""
+								height={100}
+								width={200}
+								className="max-w-none"
+								draggable={false}
+							/>
+						</motion.div>
+						<motion.div
+							className="absolute left-[498px] top-[56px] hidden sm:inline"
+							drag
+							dragSnapToOrigin
+						>
+							<Image
+								className="max-w-none"
+								src={messageImage}
+								alt=""
+								height={200}
+								width={200}
+								draggable={false}
+							/>
+						</motion.div>
 					</div>
 				</div>
 				<div className="flex justify-center">
