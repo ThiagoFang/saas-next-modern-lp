@@ -1,42 +1,40 @@
-# Dark SaaS Landing Page Starter Template
+#  **Dark SaaS Landing Page **
 
-This project is a starter template for the dark theme SaaS landing page project created by Frontend Tribe.
+![print do projeto](print.png)
 
-This project includes elements adapted from "SaaS Website UI Kit" by Framer. Retrieved from [Source Link](https://www.figma.com/community/file/1347551304372055519) (licensed under CC BY 4.0).
+<div align="center">
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 	&#127919; **About**
+Uma landing page moderna e responsiva. <br/>
+Este projéto foi criado com base no tutorial do canal <a href="https://www.youtube.com/@frontend-tribe">Frontend Tribe</a> 
 
-## Getting Started
+</div>
+<hr/>
+<div align="center">
 
-First, run the development server:
+## 📋**My Experience**
+Esse projeto foi ótimo para aprender padrões de design mais modernos e técnicas de animação relacionadas ao motion
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
+<hr style=""/>
+<div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 **Techs**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Next
+* React
+* Tailwind
+* Typescript
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+</div>
+<div>
 
-## Learn More
+## &#127775; **Features**
+&#10004; Layout Moderno &#10004; Mobile First &#10004; Typescript &#10004; Motion
 
-To learn more about Next.js, take a look at the following resources:
+</div>
+<div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<a href="https://saas-next-modern-dewtpslax-thiagofangs-projects.vercel.app/">**Clique aqui para visitar o Projéto**</a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</div>
